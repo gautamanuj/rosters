@@ -15,7 +15,10 @@ const Home = () => {
       {/* Main Content Area */}
       <div className="main-content">
         <h2>Welcome to ROSTERS EMS</h2>
-        <p>This is the employee management system homepage. Use the navigation bar to explore the website.</p>
+        <p>Rosters Employee Management System is a cutting-edge, web-based platform specifically designed and developed by students to address the dynamic needs of modern organizations—whether in 
+          government or private sectors. Our system offers an intuitive interface that simplifies employee management processes such as attendance tracking, employee registration, and performance
+           management. Tailored to meet the demands of today’s fast-paced work environments, Rosters EMS ensures seamless communication, efficient task delegation, and real-time access to employee
+            data, empowering managers and employees alike. By leveraging modern web technologies, this platform is designed with flexibility, scalability, and security in mind, ensuring it meets the diverse needs of businesses and organizations that require a reliable, all-in-one employee management solution..</p>
       </div>
     </div>
   );

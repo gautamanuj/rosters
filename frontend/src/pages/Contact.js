@@ -20,17 +20,17 @@ const Contact = () => {
 
         {/* Email with Icon */}
         <p>
-          <FontAwesomeIcon icon={faEnvelope} className="icon" /> Email: support@rosterems.com
+          <FontAwesomeIcon icon={faEnvelope} className="icon" /> Email: support.admin@rosterems.com.au
         </p>
 
         {/* Phone with Icon */}
         <p>
-          <FontAwesomeIcon icon={faPhone} className="icon" /> Phone: +1 234 567 890
+          <FontAwesomeIcon icon={faPhone} className="icon" /> Phone: +61 499 092 668
         </p>
 
         {/* Address with Icon */}
         <p>
-          <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" /> Address: 1234 Elm Street, City Name, Country
+          <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" /> Address: Penrith, New South Wales, Australia
         </p>
       </div>
     </div>
