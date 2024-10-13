@@ -1,0 +1,91 @@
+/* Container for the login page */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the form horizontally */
+    justify-content: center; /* Centers the form vertically */
+    
+    background-color: #f0f8ff; /* Light blue background to match the home page */
+  }
+  
+  /* Content area for login */
+  .login-content {
+    width: 100%;
+    max-width: 400px; /* Limit the form width */
+    background-color: #ffffff; /* White background for content */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+    text-align: center; /* Center the text in the content area */
+  }
+  
+  /* Styling for the heading */
+  .login-content h2 {
+    color: #4CAF50; /* Matching green for the heading */
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  /* Styling for form elements */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%; /* Ensure input fields take the full width */
+  }
+  
+  /* Styling for labels */
+  .form-group label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left; /* Align the labels to the left */
+  }
+  
+  /* Input fields */
+  .form-group input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Make the input fields take full width */
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Focus state for inputs */
+  .form-group input:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none;
+  }
+  
+  /* Styling for the button */
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make the button take full width */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .login-content {
+      padding: 20px;
+    }
+  
+    button[type="submit"] {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  

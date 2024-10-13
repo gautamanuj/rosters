@@ -1,0 +1,86 @@
+/* General Layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+}
+
+/* Home container for the header, nav bar, and main content */
+.home-container {
+  display: flex;
+  flex-direction: column; /* Stack header, nav bar, and content vertically */
+  height: 100vh;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  width: 50px;
+}
+
+.company-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Horizontal Nav Bar Styling */
+.nav-bar {
+  background-color: #4CAF50; /* Match the green color of the header */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add slight shadow for depth */
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Make the navigation items align horizontally */
+  justify-content: center;
+}
+
+.nav-bar ul li {
+  margin: 0 20px; /* Space between each link */
+}
+
+.nav-bar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.nav-bar ul li a:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+  border-radius: 5px; /* Smooth corner for the hover effect */
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 40px;
+  background-color: #ffffff; /* White background for the content */
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+}
+
+.main-content h2 {
+  color: #4CAF50; /* Matching green for the title */
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  color: #333;
+}

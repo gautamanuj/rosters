@@ -1,0 +1,28 @@
+/* Main container for the Contact page */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f8ff; /* Light blue background */
+    min-height: 100vh;
+  }
+  
+  /* Content styling for the Contact page */
+  .contact-content {
+    background-color: #ffffff; /* White background for content */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+  }
+  
+  .contact-content h2 {
+    color: #0077cc; /* Light blue for heading */
+  }
+  
+  .contact-content p {
+    color: #333333; /* Darker text for readability */
+  }
+  

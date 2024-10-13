@@ -1,0 +1,32 @@
+/* NavBar.css */
+
+.nav-bar {
+    background-color: #4CAF50;
+    padding: 10px 0;
+  }
+  
+  .nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-bar ul li {
+    margin: 0 15px;
+  }
+  
+  .nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-bar ul li a:hover {
+    background-color: #45a049;
+    border-radius: 5px;
+  }
+  
